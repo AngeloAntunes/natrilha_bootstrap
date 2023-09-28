@@ -1,0 +1,175 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-toggler {
+  background-color: #fff;
+}
+
+.position-absolute {
+  z-index: 1;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text-chale:hover {
+  color: #000 !important;
+}
+
+.nav .nav-link.active {
+  border: none;
+  border-radius: 0px;
+  border-bottom: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+}
+
+.nav .nav-link {
+  color: #9a9a9a;
+}
+
+.nav .nav-link:hover {
+  color: #fff;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  color: #fff;
+}
+
+img {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+.text-bg {
+  width: 30%;
+  position: absolute;
+  top: 400px;
+  left: 0px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0 10px 10px 0;
+}
+
+.text-title {
+  color: #000;
+}
+
+.img-custom {
+  height: 212px;
+}
+
+#chales {
+  background-color: #e7ebdf;
+}
+
+.custom {
+  border: none;
+  background-color: transparent;
+  color: #9a9a9a;
+}
+
+.custom.active {
+  color: #000;
+  border-left: 2px solid #000;
+}
+
+.custom-card {
+  width: 300px;
+  height: 400px;
+  box-shadow: 5px 5px 20px #838383;
+  border-radius: 5px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+.social-links a {
+  text-decoration: none;
+}
+
+#fale-conosco input:focus,
+#fale-conosco textarea:focus {
+  box-shadow: 0px 0px 2px 5px #e7ebdf;
+  border: 2px solid #e7ebdf;
+}
+
+#fale-conosco button {
+  background-color: #e7ebdf;
+}
+
+#fale-conosco button:hover {
+  background-color: #dcebbd;
+}
+
+#fale-conosco .text-link-color {
+  color: #000;
+}
+
+#fale-conosco .text-link-color:hover {
+  color: #dcebbd;
+}
+
+footer {
+  height: 50px;
+  background-color: #e7ebdf;
+}
+
+@media screen and (max-width: 1440px) {
+  .text-bg {
+    width: 50%;
+    top: 450px;
+  }
+
+  .img-custom,
+  .card-body {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .card-custom {
+    height: 300px;
+  }
+
+  .text-bg {
+    width: 100%;
+    top: 450px;
+  }
+
+  .row-custom-mobile,
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-body {
+    justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .custom-card {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .row-custom-chale {
+    justify-content: center;
+  }
+
+  .custom-card {
+    width: 90%;
+    margin: 0px;
+  }
+}

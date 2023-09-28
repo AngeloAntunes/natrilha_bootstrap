@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Na Trilha</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/main.css">
+</head>
+
+<body>
+  <header class="position-absolute w-100 navbar navbar-expand-lg p-4 " id="cabecalho">
+    <div class="container">
+      <h1 class="navbar-brand">
+        <i class="bi bi-signpost-2-fill me-1"></i>
+        Na Trilha
+      </h1>
+
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+        <ul class="nav nav-pills d-block d-md-flex">
+          <li class=" fw-bold">
+            <a href="#se-aventure" class="nav-link active">
+              <i class="bi bi-tree-fill me-1"></i>
+              Se aventure
+            </a>
+          </li>
+          <li class=" fw-bold">
+            <a href="#eventos" class="nav-link">
+              <i class="bi bi-calendar-week-fill me-1"></i>
+              Eventos
+            </a>
+          </li>
+          <li class=" fw-bold">
+            <a href="#chales" class="nav-link">
+              <i class="bi bi-houses-fill me-1"></i>
+              Chalés
+            </a>
+          </li>
+          <li class=" fw-bold">
+            <a href="#fale-conosco" class="nav-link">
+              <i class="bi bi-chat-left-text me-1"></i>
+              Fale conosco
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-scroll="true">
+    <section id="se-aventure">
+      <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="/images/slides/floresta.jpg" alt="Floresta">
+            <h2 class="text-bg text-uppercase text-center lh-base p-4 fs-1">Desperte sua alma aventureira na <br> trilha
+              da
+              <mark class="fw-bold rounded">floresta.</mark>
+            </h2>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="/images/slides/neve.jpg" alt="Montanha com neve">
+            <h2 class="text-bg text-uppercase text-center lh-base p-4 fs-1">Desperte sua alma aventureira na <br> trilha
+              da
+              <mark class="fw-bold rounded">montanha.</mark>
+            </h2>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="/images/slides/canoa.jpg" alt="Rio com canoas">
+            <h2 class="text-bg text-uppercase text-center lh-base p-4 fs-1">Desperte sua alma aventureira na <br> trilha
+              do
+              <mark class="fw-bold rounded">rio.</mark>
+            </h2>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="/images/slides/caverna.jpg" alt="Caverna">
+            <h2 class="text-bg text-uppercase text-center lh-base p-4 fs-1">Desperte sua alma aventureira na <br> trilha
+              da
+              <mark class="fw-bold rounded">caverna.</mark>
+            </h2>
+          </div>
+
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"
+              aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="eventos" class="pt-5 pb-5">
+      <h2 class="text-title text-uppercase fw-bold text-center pt-4 pb-5">Novos <mark class="rounded">eventos</mark>
+      </h2>
+      <div class="container text-center">
+        <div class="row mb-2 row-custom-mobile">
+          <div class="col">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col card-custom">
+                  <img src="/images/eventos/parapente.jpg" class="img-fluid rounded-start img-custom" alt="parapente">
+                </div>
+                <div class="col card-custom">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Trilha de Voo</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional
+                      content.
+                      This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Data: 18/08/2024 às 13:00 horas</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col card-custom">
+                  <img src="/images/eventos/quadriciclo.jpg" class="img-fluid rounded-start img-custom" alt="...">
+                </div>
+                <div class="col">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Trilha de Quadriciclo</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional
+                      content.
+                      This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Data: 02/01/2024 às 09:00 horas</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row row-custom-mobile">
+          <div class="col">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col card-custom">
+                  <img src="/images/eventos/deserto.jpg" class="img-fluid rounded-start img-custom" alt="...">
+                </div>
+                <div class="col">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Trilha no Deserto</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional
+                      content.
+                      This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Data: 20/12/2023 às 12:00 horas</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col card-custom">
+                  <img src="/images/eventos/mar.jpg" class="img-fluid rounded-start img-custom" alt="...">
+                </div>
+                <div class="col">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Trilha no Mar</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional
+                      content.
+                      This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Data: 15/10/2023 às 15:00 horas</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="chales" class="pt-5 pb-5">
+      <h2 class="text-title text-uppercase fw-bold text-center pt-4 pb-5">Experimente nossos <mark
+          class="rounded">Chalés</mark></h2>
+      <div class="container text-center">
+        <div class="row">
+          <aside class="col-xl-2 col-md-3 col-sm-4">
+            <nav class="nav nav-pills flex-column nav-cardapio">
+              <button type="button" data-bs-toggle="tab" data-bs-target="#chales-floresta"
+                class="text-chale fw-bold text-start mb-3 custom active">Refúgio da Floresta</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#chales-montanha"
+                class="text-chale fw-bold text-start mb-3  custom">Refúgio de Inverno</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#chales-rio"
+                class="text-chale fw-bold text-start mb-3  custom">Refúgio Aquático</button>
+            </nav>
+          </aside>
+          <div class="col-xl-10 col-md-9 col-sm-8">
+            <div class="tab-content">
+              <div class="tab-pane active" id="chales-floresta">
+                <div class="row row-custom-chale">
+                  <div class="col-md-3 m-2 custom-card">
+                    <img src="/images/chales/chale-madeira.jpg" class="w-100 h-50" alt="Coca-Cola">
+                    <h5 class="fw-bold mt-4">Chalé Verde</h5>
+                    <p class="p-1">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam itaque, ad enim recusandae
+                      maxime debitis.
+                    </p>
+                  </div>
+                  <div class="col-md-3 m-2 custom-card">
+                    <img src="/images/chales/chale-madeira.jpg" class="w-100 h-50" alt="Coca-Cola">
+                    <h5 class="fw-bold mt-4">Chalé Verde</h5>
+                    <p class="p-1">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam itaque, ad enim recusandae
+                      maxime debitis.
+                    </p>
+                  </div>
+                  <div class="col-md-3 m-2 custom-card">
+                    <img src="/images/chales/chale-madeira.jpg" class="w-100 h-50" alt="Coca-Cola">
+                    <h5 class="fw-bold mt-4">Chalé Verde</h5>
+                    <p class="p-1">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam itaque, ad enim recusandae
+                      maxime debitis.
+                    </p>
+                  </div>
+                  <div class="col-md-3 m-2 custom-card">
+                    <img src="/images/chales/chale-madeira.jpg" class="w-100 h-50" alt="Coca-Cola">
+                    <h5 class="fw-bold mt-4">Chalé Verde</h5>
+                    <p class="p-1">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam itaque, ad enim recusandae
+                      maxime debitis.
+                    </p>
+                  </div>
+                  <div class="col-md-3 m-2 custom-card">
+                    <img src="/images/chales/chale-madeira.jpg" class="w-100 h-50" alt="Coca-Cola">
+                    <h5 class="fw-bold mt-4">Chalé Verde</h5>
+                    <p class="p-1">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam itaque, ad enim recusandae
+                      maxime debitis.
+                    </p>
+                  </div>
+                  <div class="col-md-3 m-2 custom-card">
+                    <img src="/images/chales/chale-madeira.jpg" class="w-100 h-50" alt="Coca-Cola">
+                    <h5 class="fw-bold mt-4">Chalé Verde</h5>
+                    <p class="p-1">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam itaque, ad enim recusandae
+                      maxime debitis.
+                    </p>
+                  </div>
+
+                </div>
+              </div>
+              <div class="tab-pane" id="chales-montanha">
+                <div class="row row-custom-chale">
+                  <div class="col-md-3 m-2 custom-card">
+                    <img src="/images/chales/chale-neve.jpg" class="w-100 h-50" alt="Chale">
+                    <h5 class="fw-bold mt-4">Chalé Aquecido</h5>
+                    <p class="p-1">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam itaque, ad enim recusandae
+                      maxime debitis.
+                    </p>
+                  </div>
+                  <div class="col-md-3 m-2 custom-card">
+                    <img src="/images/chales/chale-neve.jpg" class="w-100 h-50" alt="Chale">
+                    <h5 class="fw-bold mt-4">Chalé Aquecido</h5>
+                    <p class="p-1">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam itaque, ad enim recusandae
+                      maxime debitis.
+                    </p>
+                  </div>
+                  <div class="col-md-3 m-2 custom-card">
+                    <img src="/images/chales/chale-neve.jpg" class="w-100 h-50" alt="Chale">
+                    <h5 class="fw-bold mt-4">Chalé Aquecido</h5>
+                    <p class="p-1">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam itaque, ad enim recusandae
+                      maxime debitis.
+                    </p>
+                  </div>
+                  <div class="col-md-3 m-2 custom-card">
+                    <img src="/images/chales/chale-neve.jpg" class="w-100 h-50" alt="Chale">
+                    <h5 class="fw-bold mt-4">Chalé Aquecido</h5>
+                    <p class="p-1">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam itaque, ad enim recusandae
+                      maxime debitis.
+                    </p>
+                  </div>
+                  <div class="col-md-3 m-2 custom-card">
+                    <img src="/images/chales/chale-neve.jpg" class="w-100 h-50" alt="Chale">
+                    <h5 class="fw-bold mt-4">Chalé Aquecido</h5>
+                    <p class="p-1">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam itaque, ad enim recusandae
+                      maxime debitis.
+                    </p>
+                  </div>
+                  <div class="col-md-3 m-2 custom-card">
+                    <img src="/images/chales/chale-neve.jpg" class="w-100 h-50" alt="Chale">
+                    <h5 class="fw-bold mt-4">Chalé Aquecido</h5>
+                    <p class="p-1">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam itaque, ad enim recusandae
+                      maxime debitis.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="chales-rio">
+                <div class="row row-custom-chale">
+                  <div class="col-md-3 m-2 custom-card">
+                    <img src="/images/chales/chale-agua.jpg" class="w-100 h-50" alt="Chale">
+                    <h5 class="fw-bold mt-4">Chalé Flutuante</h5>
+                    <p class="p-1">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam itaque, ad enim recusandae
+                      maxime debitis.
+                    </p>
+                  </div>
+                  <div class="col-md-3 m-2 custom-card">
+                    <img src="/images/chales/chale-agua.jpg" class="w-100 h-50" alt="Chale">
+                    <h5 class="fw-bold mt-4">Chalé Flutuante</h5>
+                    <p class="p-1">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam itaque, ad enim recusandae
+                      maxime debitis.
+                    </p>
+                  </div>
+                  <div class="col-md-3 m-2 custom-card">
+                    <img src="/images/chales/chale-agua.jpg" class="w-100 h-50" alt="Chale">
+                    <h5 class="fw-bold mt-4">Chalé Flutuante</h5>
+                    <p class="p-1">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam itaque, ad enim recusandae
+                      maxime debitis.
+                    </p>
+                  </div>
+                  <div class="col-md-3 m-2 custom-card">
+                    <img src="/images/chales/chale-agua.jpg" class="w-100 h-50" alt="Chale">
+                    <h5 class="fw-bold mt-4">Chalé Flutuante</h5>
+                    <p class="p-1">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam itaque, ad enim recusandae
+                      maxime debitis.
+                    </p>
+                  </div>
+                  <div class="col-md-3 m-2 custom-card">
+                    <img src="/images/chales/chale-agua.jpg" class="w-100 h-50" alt="Chale">
+                    <h5 class="fw-bold mt-4">Chalé Flutuante</h5>
+                    <p class="p-1">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam itaque, ad enim recusandae
+                      maxime debitis.
+                    </p>
+                  </div>
+                  <div class="col-md-3 m-2 custom-card">
+                    <img src="/images/chales/chale-agua.jpg" class="w-100 h-50" alt="Chale">
+                    <h5 class="fw-bold mt-4">Chalé Flutuante</h5>
+                    <p class="p-1">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam itaque, ad enim recusandae
+                      maxime debitis.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="fale-conosco" class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <h2 class="text-title text-uppercase fw-bold text-center pt-4 pb-5">Fale <mark class="rounded">conosco</mark>
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-md-7 mb-5">
+            <form>
+              <div class="mb-3">
+                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                <input type="text" id="nome" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                <input type="email" id="email" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                <input type="tel" id="telefone" class="form-control">
+              </div>
+              <div class="mb-3">
+                <label for="mensagem" class="form-label fw-bold text-colored">Sua Mensagem</label>
+                <textarea class="form-control" id="mensagem" required></textarea>
+              </div>
+              <button type="submit" class="btn fw-bold">Enviar</button>
+            </form>
+          </div>
+          <div class="col-md-5">
+            <div class="row m-4">
+              <h3 class="section-title fs-4">
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                Redes sociais
+              </h3>
+              <ul class="social-links">
+                <li class="fs-5">
+                  <a href="#">
+                    <i class="bi bi-facebook text text-link-color"></i>
+                  </a>
+                </li>
+                <li class="fs-5 ms-1 me-1">
+                  <a href="#">
+                    <i class="bi bi-instagram text text-link-color"></i>
+                  </a>
+                </li>
+                <li class="fs-5">
+                  <a href="#">
+                    <i class="bi bi-whatsapp text text-link-color"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="row m-4">
+              <h3 class="section-title fs-4 text-colored">
+                <i class="bi bi-cursor-fill"></i>
+                Endereço
+              </h3>
+              <p>
+                Rua Teste Exemplo nº 145, Bairro Bootstrap - São Paulo - SP
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="d-flex justify-content-center align-items-center">
+      <h3 class="fs-5"><a class="nav-link" href="https://www.linkedin.com/in/angeloantunes/"
+          target="_blank">Desenvolvido por <mark class="rounded">Angelo Antunes</mark></a>
+      </h3>
+    </footer>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
